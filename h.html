@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Utkarsh Prajapati | Full Stack Developer</title>
+  <style>
+    :root {
+      --primary: #1e293b;
+      --secondary: #2563eb;
+      --background: #f4f4f4;
+      --white: #ffffff;
+    }
+
+    * {
+      box-sizing: border-box;
+      scroll-behavior: smooth;
+    }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      background-color: var(--background);
+      color: #333;
+    }
+
+    header {
+      background-color: var(--primary);
+      color: var(--white);
+      padding: 1rem 2rem;
+      position: sticky;
+      top: 0;
+      z-index: 10;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+
+    .logo {
+      font-size: 1.8rem;
+      font-weight: bold;
+    }
+
+    nav a {
+      color: var(--white);
+      text-decoration: none;
+      margin-left: 1rem;
+      font-weight: 500;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 3rem 2rem;
+      background-color: var(--white);
+    }
+
+    .hero h1 {
+      font-size: 2.5rem;
+      margin: 0;
+    }
+
+    .hero p {
+      font-size: 1.2rem;
+      margin-top: 1rem;
+    }
+
+    .contact-info {
+      margin-top: 1rem;
+    }
+
+    .contact-info span {
+      display: block;
+      margin-top: 0.25rem;
+    }
+
+    main {
+      padding: 2rem;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    section {
+      background-color: var(--white);
+      margin-bottom: 2rem;
+      padding: 1.5rem;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+    }
+
+    h2 {
+      border-bottom: 2px solid #ccc;
+      padding-bottom: 0.5rem;
+      margin-bottom: 1rem;
+    }
+
+    ul {
+      list-style: disc;
+      margin-left: 2rem;
+    }
+
+    a {
+      color: var(--secondary);
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    footer {
+      background-color: var(--primary);
+      color: var(--white);
+      text-align: center;
+      padding: 1rem;
+      margin-top: 3rem;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <div class="logo">Utkarsh Prajapati</div>
+    <nav>
+      <a href="#summary">Summary</a>
+      <a href="#skills">Skills</a>
+      <a href="#experience">Experience</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h1>Hi, I'm Utkarsh</h1>
+    <p>Full Stack Developer | Java | Angular | Cloud Enthusiast</p>
+    <div class="contact-info">
+      <span>📍 Hyderabad, India</span>
+      <span>📞 +91 9302967430</span>
+      <span>📧 <a href="mailto:prajapatiutkarsh2@gmail.com">prajapatiutkarsh2@gmail.com</a></span>
+      <span><a href="#">LinkedIn</a> | <a href="#">GitHub</a></span>
+    </div>
+  </section>
+
+  <main>
+    <section id="summary">
+      <h2>Professional Summary</h2>
+      <p>Highly motivated and technically proficient Full Stack Developer... (summary content here)</p>
+    </section>
+
+    <section id="skills">
+      <h2>Technical Skills</h2>
+      <ul>
+        <li><strong>Frontend:</strong> AngularJS, Angular 13+, HTML5, CSS3...</li>
+        <li><strong>Backend:</strong> Java, Spring Boot, Node.js, RESTful APIs</li>
+        <li><strong>Database:</strong> Oracle, MySQL, MongoDB</li>
+        <li><strong>Cloud & DevOps:</strong> AWS, Docker, Jenkins</li>
+        <li><strong>Tools:</strong> Git, GitHub, Maven, Postman, JIRA</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Education</h2>
+      <p><strong>B.Tech in Computer Science Engineering</strong> – TIT College, Bhopal (2019 – 2023)</p>
+    </section>
+
+    <section>
+      <h2>Certifications</h2>
+      <ul>
+        <li>Full Stack Developer Certification – Naresh IT</li>
+        <li>AWS Cloud Practitioner Essentials</li>
+        <li>Java Programming Masterclass – Udemy</li>
+      </ul>
+    </section>
+
+    <section id="experience">
+      <h2>Professional Experience</h2>
+      <h3>Full Stack Developer Intern – Supersourcing</h3>
+      <p>January 2023 – June 2023</p>
+      <ul>
+        <li>Designed dynamic AngularJS dashboard...</li>
+        <li>Collaborated on RESTful API development...</li>
+      </ul>
+
+      <h3>Full Stack Developer Trainee – Naresh IT</h3>
+      <p>July 2023 – May 2024</p>
+      <ul>
+        <li>Developed full-stack projects using Angular 13+, Spring Boot</li>
+        <li>Deployed apps on AWS and set up CI/CD pipelines</li>
+      </ul>
+    </section>
+
+    <section id="projects">
+      <h2>Key Projects</h2>
+      <ul>
+        <li><strong>Interactive Angular Dashboard:</strong> Real-time dashboard using Chart.js</li>
+        <li><strong>Spring Boot RESTful API Development:</strong> JWT, CRUD operations</li>
+        <li><strong>Mini E-commerce Platform:</strong> Full-stack application with secure checkout</li>
+        <li><strong>AWS-Based Deployment:</strong> Hosted full-stack app with Route 53, RDS</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Soft Skills & Interests</h2>
+      <p><strong>Soft Skills:</strong> Problem-solving, Teamwork, Adaptability, Attention to Detail</p>
+      <p><strong>Interests:</strong> Cloud Computing, Cricket, Traveling, Swimming, Gardening</p>
+    </section>
+
+    <section id="contact">
+      <h2>Additional Information</h2>
+      <p>Immediate Joiner | Open to Relocation and Remote Work</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Utkarsh Prajapati</p>
+  </footer>
+</body>
+
+</html>
